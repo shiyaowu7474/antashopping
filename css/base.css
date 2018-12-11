@@ -1,0 +1,63 @@
+body,dd,dl,form,h1,h2,h3,h4,h5,h6,p {
+	margin: 0
+}
+
+body {
+	-webkit-font-smoothing: antialiased
+}
+
+button,del,input,ins,li,ol,select,table,td,textarea,th,tr,ul {
+	margin: 0;
+	padding: 0
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+img {
+	border: 0;
+	outline: 0
+}
+
+li {
+	list-style: none
+}
+
+h1,h2,h3,h4,h5,h6,input,select,textarea {
+	font-size: 100%
+}
+
+textarea {
+	overflow: auto;
+	resize: none
+}
+
+em,i,s {
+	text-decoration: none;
+	font-style: normal
+}
+
+a:link,a:visited {
+	color: #666;
+	text-decoration: none
+}
+
+a:hover {
+	color: #111
+}
+
+a,area {
+	border: none;
+	outline: 0
+}
+
+body,button,input,label,select,textarea {
+	font: normal 12px "微软雅黑",Arial,sans-serif;
+	*font-family: SimSun;
+	outline: 0
+}
+
+body {
+	height: auto
+}

@@ -1,0 +1,287 @@
+.top-nav{
+    margin: 5px auto;
+    line-height: 40px;
+}
+.w{
+    width: 1190px;
+    margin: 0px auto;
+}
+.clearfix{
+    height: 42px;
+    margin: 5px 71px;
+}
+.top-nav  .logo{
+    display: block;
+    height: 42px;
+    float: left;
+    width: 181px;
+    background: url("http://img.anta.cn/sources/NewEdition/2015newimages/logo.gif") no-repeat;
+    background-size: 100%;
+}
+.top-nav a{
+    color: #333;
+}
+.top-nav .logo-box{
+    float: left;
+    padding: 0 10px;
+}
+.top-nav .logo-box a{
+    padding: 0 10px;
+    line-height: 40px;
+}
+.top-nav .quick-menu{
+    float: right;
+}
+.top-nav .quick-menu li{
+    float: left;
+    padding-left: 10px;
+    position: relative;
+}
+.top-nav .quick-menu li a{
+    line-height: 40px;
+    display: inline-block;
+    padding-right: 10px;
+}
+.top-nav .quick-menu li .icon-phone{
+    background: url("http://img.anta.cn/sources/NewEdition/2015newimages/mui-global-iconfont.gif") no-repeat;
+}
+.top-nav .quick-menu li .icon{
+    display: inline-block;
+    width: 12px;
+    height: 15px;
+    margin-right: 5px;
+    margin-bottom: -2px;
+}
+.top-nav .quick-menu li .mobile-shop{
+    position: absolute;
+    top:85px;
+    left: -95px;
+    z-index: 99;
+    width: 280px;
+    height: 150px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.top-nav .quick-menu li .icon-cart{
+    background:url("http://img.anta.cn/images/2015/index-icon.png") -45px -96px no-repeat;
+}
+.top-nav .quick-menu li .mobile-shop{
+    position: absolute;
+    top:85px;
+    left: -95ox;
+    z-index: 99;
+    width: 280px;
+    height: 150px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.hide{
+    display: none;
+} 
+.top-nav .quick-menu li .mobile-shop img{
+    margin: 13px 30px 13px;
+}
+
+/* 导航栏 */
+.nav{
+    background: #000;
+    height: 36px;
+}
+w-full{
+    width: 100%;
+}
+.main-nav{
+    height: 36px;
+    z-index: 200;
+    position: relative;
+}
+.all-styles{
+    float: left;
+    position: relative;
+    height: auto;
+    width: 210px;
+}
+.main-nav .all-styles-title{
+    text-indent:24px;
+    background: #D6211A url("http://img.anta.cn/sources/NewEdition/2015newimages/public.3.4.gif") 0 -82px no-repeat;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    width: 210px;
+    font-size: 16px;
+}
+.main-nav .all-styles li{
+
+}
+.main-nav .all-styles li:hover{
+    background: #D6211A;
+}
+.main-nav .all-styles-tab{
+    z-index: 199;
+    position: absolute;
+    left: 0;
+    top: 36px;
+    background:url("http://img.anta.cn/sources/NewEdition/2015newimages/style-tab-bg.png") no-repeat;
+    opacity: 0.7;
+    
+}
+.main-nav .all-styles-tab>li{
+    z-index:199;
+    position:relative;
+    padding:7px 15px 8px;
+    width:180px;
+    line-height:22px;
+    opacity: 1;
+}
+.main-nav .all-styles-tab>li h3{
+    line-height: 18px;
+    font-size: 16px;
+    height: 21px;
+}
+.main-nav .all-styles-tab>li p a{
+    display:inline-block;
+    padding-right:5px;
+    white-space:nowrap;
+    word-break:break-all;
+    word-wrap:break-word
+}
+.main-nav a{
+    color: #fff;
+}
+.main-nav .line-nav, .main-nav .line-nav .item{
+    float: left;
+}
+.line-nav{
+    background: #333;
+}
+.line-nav .first-item{
+    background: #000;
+    font-size: 14px;
+    display: block;
+    line-height: 36px;
+    width: 62px;
+    padding: 0 7px;
+    text-align: center;
+    float: left;
+} 
+.main-nav .line-nav .item{
+    position: relative;
+    width: 76px;
+    height: 37px;
+}
+.main-nav .line-nav .item>a{
+    font-size: 14px;
+    display: block;
+    line-height: 36px;
+    width: 62px;
+    padding: 0 7px;
+    text-align: center;
+}
+.main-nav .line-nav .item>a.con-img{
+    width: 120px;
+    height: 36px;
+    background: #231f20;
+}
+.main-nav .line-nav .item .item-box{
+    background:#fff;
+    z-index:99;
+    position:absolute;
+    top:36px;
+    left:-76px;
+    border:1px#eee solid;
+    height:345px;
+    width:635px;
+    box-shadow:0 0 3px #ddd;
+}
+.main-nav .line-nav .item-box .line-nav-ad{
+    float: left;
+    display: block;
+    margin-top:20px;
+    padding: 0 10px 0 20px;
+    border-right: 1px solid #eee;
+}
+.main-nav .line-nav .item-box ul li h4{
+    border-bottom:1px dashed #ddd;
+    margin-bottom: 7px;
+}
+.main-nav .line-nav .item-box ul{
+    float: right;
+    padding: 20px 15px 20px 10px;width: 395px;
+}
+.main-nav .line-nav .item-box ul li{
+    margin-bottom:13px;
+}
+.main-nav .line-nav .item-box ul li h4, .main-nav .line-nav .item-box ul li h4 a{
+    color: #222;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;padding-bottom: 4px;
+}
+.main-nav .line-nav .item-box ul li a{
+    color: #333;
+    margin-right: 15px;
+    line-height: 18px;
+}
+.main-nav .line-nav .item:hover{
+    background: #000;
+}
+
+
+.main-nav .nav-search{
+    float: right;
+    position: relative;
+}
+.main-nav .nav-search input{
+    outline: none;
+    width: 180px;
+    height: 26px;
+    padding: 0 10px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+.main-nav .nav-search .nav-search-btn{
+    position:absolute;
+    display:block;
+    height:23px;
+    width:30px;
+    background:#fff url("http://img.anta.cn/images/2015/index-icon.png") -42px -164px no-repeat;
+    border:none;
+    right:5px;top:7px
+}
+.main-nav .suggestion{
+    position:absolute;
+    background:#fff;
+    top:36px;
+    right:0;
+    height:auto;
+    width:198px;
+    box-shadow:0 1px 8px rgba(0,0,0,.1);
+    -moz-box-shadow:0 1px 8px rgba(0,0,0,.1);
+    -webkit-box-shadow:0 1px 8px rgba(0,0,0,.1);
+    border:1px #e8e8e8 solid;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+    display:none
+}
+.main-nav .suggestion .hotwords{
+    width: 100%;
+}
+.main-nav .suggestion .hotwords-list{
+    padding: 5px 0;
+}
+.main-nav .suggestion .hotwords-list li a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    width: 178px;
+    color: #000;
+    font-size: 14px;
+    padding: 0 10px;
+}
+.main-nav .line-nav .item>a.con-img img{
+    height: 30px;
+    margin-top: 3px;
+}
